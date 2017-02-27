@@ -15,7 +15,7 @@ An SMO is a neural network that aims to represent data of arbitrary dimensionali
 
 Note that these unsupervised algorithms above have the benefit of not requiring the user to specify how many clusters he/she wishes to obtain, unlike the K-means/mediods algorithms, for example.
 
-## Learning Vector Quantization
+## Learning Vector Quantization (LVQ)
 
 A supervised neural networks-based learning algorithm: https://en.wikipedia.org/wiki/Learning_vector_quantization.
 
