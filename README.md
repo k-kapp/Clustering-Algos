@@ -1,5 +1,7 @@
 # Clustering-Algos
-A bunch of unsupervised clustering algorithms I implemented
+A bunch of unsupervised clustering and classification algorithms.
+
+Note that I wrote this code quite a while ago, and haven't checked it thoroughly. Will find some better examples to apply the data to soon. The data the algorithms are applied to here is all simulated.
 
 I have the following clustering algorithms in this repository:
 
@@ -12,5 +14,9 @@ These two algorithms are related in that they create identify clusters based on 
 An SMO is a neural network that aims to represent data of arbitrary dimensionality in a two-dimensional grid, while preserving topological properties of the data (i.e. if cluster 1 is closer to cluster 2 than cluster 3, then it will also be evident in the 2-d grid). For further reading, please consult https://en.wikipedia.org/wiki/Self-organizing_map.
 
 Note that these algorithms above have the benefit of not requiring the user to specify how many clusters he/she wishes to obtain, unlike the K-means/mediods algorithms, for example.
+
+## Linear Vector Quantization
+
+A supervised neural networks-based learning algorithm: https://en.wikipedia.org/wiki/Learning_vector_quantization.
 
 More code examples coming soon...
