@@ -9,7 +9,7 @@ I have the following clustering algorithms in this repository:
 
 These two algorithms are related in that they create identify clusters based on distances between points. Clusters are successively grown until all points that have a certain density of other points around them, are found in the cluster. OPTICS is an improved version of DBSCAN, in that it deals better with data where density varies between clusters. For further reading, check wikipedia at https://en.wikipedia.org/wiki/OPTICS_algorithm and https://en.wikipedia.org/wiki/DBSCAN.
 
-## Self-organising map (SMO)
+## Self-organising map (SOM)
 
 An SMO is a neural network that aims to represent data of arbitrary dimensionality in a two-dimensional grid, while preserving topological properties of the data (i.e. if cluster 1 is closer to cluster 2 than cluster 3, then it will also be evident in the 2-d grid). For further reading, please consult https://en.wikipedia.org/wiki/Self-organizing_map.
 
